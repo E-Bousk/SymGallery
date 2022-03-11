@@ -20,3 +20,9 @@ symfony check:requirements
 docker-compose up -d
 symfony server:start -d
 ```
+
+### Lancer les tests unitaires
+
+```bash
+php bin/phpunit --testdox --verbose
+```
